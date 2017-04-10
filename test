@@ -1,0 +1,76 @@
+#Autogen by gnagnagnagna
+
+NEURONS - NAME : TYPE, LAYER
+input1 : SIGMOID, 0
+input2 : SIGMOID, 0
+input3 : SIGMOID, 0
+input4 : SIGMOID, 0
+input5 : SIGMOID, 0
+input6 : SIGMOID, 0
+input7 : SIGMOID, 0
+input8 : SIGMOID, 0
+input9 : SIGMOID, 0
+input10 : SIGMOID, 0
+middle1 : SIGMOID, 1
+middle2 : SIGMOID, 1
+middle3 : SIGMOID, 1
+middle4 : SIGMOID, 1
+middle5 : SIGMOID, 1
+middle6 : SIGMOID, 1
+middle7 : SIGMOID, 1
+middle8 : SIGMOID, 1
+middle9 : SIGMOID, 1
+middle10 : SIGMOID, 1
+middle11 : SIGMOID, 1
+middle12 : SIGMOID, 1
+middle13 : SIGMOID, 1
+middle14 : SIGMOID, 1
+middle15 : SIGMOID, 1
+middle16 : SIGMOID, 1
+middle17 : SIGMOID, 1
+middle18 : SIGMOID, 1
+middle19 : SIGMOID, 1
+middle20 : SIGMOID, 1
+output1 : SIGMOID, 2
+output2 : SIGMOID, 2
+output3 : SIGMOID, 2
+output4 : SIGMOID, 2
+output5 : SIGMOID, 2
+output6 : SIGMOID, 2
+output7 : SIGMOID, 2
+output8 : SIGMOID, 2
+output9 : SIGMOID, 2
+output10 : SIGMOID, 2
+
+BACKWARD_LINKS - NAME : PARENTS' NAMES
+middle1 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle2 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle3 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle4 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle5 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle6 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle7 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle8 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle9 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle10 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle11 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle12 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle13 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle14 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle15 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle16 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle17 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle18 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle19 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle20 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+output1 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output2 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output3 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output4 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output5 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output6 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output7 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output8 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output9 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+output10 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20
+

@@ -1,0 +1,236 @@
+#Autogen by gnagnagnagna
+
+NEURONS - NAME : TYPE, LAYER
+input1 : SIGMOID, 0
+input2 : SIGMOID, 0
+input3 : SIGMOID, 0
+input4 : SIGMOID, 0
+input5 : SIGMOID, 0
+input6 : SIGMOID, 0
+input7 : SIGMOID, 0
+input8 : SIGMOID, 0
+input9 : SIGMOID, 0
+input10 : SIGMOID, 0
+middle1 : SIGMOID, 1
+middle2 : SIGMOID, 1
+middle3 : SIGMOID, 1
+middle4 : SIGMOID, 1
+middle5 : SIGMOID, 1
+middle6 : SIGMOID, 1
+middle7 : SIGMOID, 1
+middle8 : SIGMOID, 1
+middle9 : SIGMOID, 1
+middle10 : SIGMOID, 1
+middle11 : SIGMOID, 1
+middle12 : SIGMOID, 1
+middle13 : SIGMOID, 1
+middle14 : SIGMOID, 1
+middle15 : SIGMOID, 1
+middle16 : SIGMOID, 1
+middle17 : SIGMOID, 1
+middle18 : SIGMOID, 1
+middle19 : SIGMOID, 1
+middle20 : SIGMOID, 1
+middle21 : SIGMOID, 1
+middle22 : SIGMOID, 1
+middle23 : SIGMOID, 1
+middle24 : SIGMOID, 1
+middle25 : SIGMOID, 1
+middle26 : SIGMOID, 1
+middle27 : SIGMOID, 1
+middle28 : SIGMOID, 1
+middle29 : SIGMOID, 1
+middle30 : SIGMOID, 1
+middle31 : SIGMOID, 1
+middle32 : SIGMOID, 1
+middle33 : SIGMOID, 1
+middle34 : SIGMOID, 1
+middle35 : SIGMOID, 1
+middle36 : SIGMOID, 1
+middle37 : SIGMOID, 1
+middle38 : SIGMOID, 1
+middle39 : SIGMOID, 1
+middle40 : SIGMOID, 1
+middle41 : SIGMOID, 1
+middle42 : SIGMOID, 1
+middle43 : SIGMOID, 1
+middle44 : SIGMOID, 1
+middle45 : SIGMOID, 1
+middle46 : SIGMOID, 1
+middle47 : SIGMOID, 1
+middle48 : SIGMOID, 1
+middle49 : SIGMOID, 1
+middle50 : SIGMOID, 1
+middle51 : SIGMOID, 1
+middle52 : SIGMOID, 1
+middle53 : SIGMOID, 1
+middle54 : SIGMOID, 1
+middle55 : SIGMOID, 1
+middle56 : SIGMOID, 1
+middle57 : SIGMOID, 1
+middle58 : SIGMOID, 1
+middle59 : SIGMOID, 1
+middle60 : SIGMOID, 1
+middle61 : SIGMOID, 1
+middle62 : SIGMOID, 1
+middle63 : SIGMOID, 1
+middle64 : SIGMOID, 1
+middle65 : SIGMOID, 1
+middle66 : SIGMOID, 1
+middle67 : SIGMOID, 1
+middle68 : SIGMOID, 1
+middle69 : SIGMOID, 1
+middle70 : SIGMOID, 1
+middle71 : SIGMOID, 1
+middle72 : SIGMOID, 1
+middle73 : SIGMOID, 1
+middle74 : SIGMOID, 1
+middle75 : SIGMOID, 1
+middle76 : SIGMOID, 1
+middle77 : SIGMOID, 1
+middle78 : SIGMOID, 1
+middle79 : SIGMOID, 1
+middle80 : SIGMOID, 1
+middle81 : SIGMOID, 1
+middle82 : SIGMOID, 1
+middle83 : SIGMOID, 1
+middle84 : SIGMOID, 1
+middle85 : SIGMOID, 1
+middle86 : SIGMOID, 1
+middle87 : SIGMOID, 1
+middle88 : SIGMOID, 1
+middle89 : SIGMOID, 1
+middle90 : SIGMOID, 1
+middle91 : SIGMOID, 1
+middle92 : SIGMOID, 1
+middle93 : SIGMOID, 1
+middle94 : SIGMOID, 1
+middle95 : SIGMOID, 1
+middle96 : SIGMOID, 1
+middle97 : SIGMOID, 1
+middle98 : SIGMOID, 1
+middle99 : SIGMOID, 1
+middle100 : SIGMOID, 1
+output1 : SIGMOID, 2
+output2 : SIGMOID, 2
+output3 : SIGMOID, 2
+output4 : SIGMOID, 2
+output5 : SIGMOID, 2
+output6 : SIGMOID, 2
+output7 : SIGMOID, 2
+output8 : SIGMOID, 2
+output9 : SIGMOID, 2
+output10 : SIGMOID, 2
+
+BACKWARD_LINKS - NAME : PARENTS' NAMES
+middle1 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle2 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle3 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle4 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle5 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle6 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle7 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle8 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle9 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle10 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle11 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle12 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle13 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle14 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle15 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle16 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle17 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle18 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle19 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle20 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle21 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle22 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle23 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle24 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle25 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle26 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle27 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle28 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle29 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle30 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle31 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle32 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle33 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle34 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle35 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle36 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle37 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle38 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle39 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle40 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle41 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle42 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle43 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle44 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle45 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle46 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle47 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle48 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle49 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle50 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle51 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle52 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle53 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle54 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle55 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle56 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle57 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle58 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle59 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle60 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle61 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle62 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle63 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle64 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle65 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle66 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle67 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle68 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle69 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle70 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle71 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle72 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle73 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle74 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle75 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle76 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle77 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle78 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle79 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle80 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle81 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle82 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle83 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle84 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle85 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle86 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle87 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle88 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle89 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle90 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle91 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle92 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle93 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle94 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle95 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle96 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle97 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle98 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle99 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+middle100 : input1, input2, input3, input4, input5, input6, input7, input8, input9, input10
+output1 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output2 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output3 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output4 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output5 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output6 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output7 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output8 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output9 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+output10 : middle1, middle2, middle3, middle4, middle5, middle6, middle7, middle8, middle9, middle10, middle11, middle12, middle13, middle14, middle15, middle16, middle17, middle18, middle19, middle20, middle21, middle22, middle23, middle24, middle25, middle26, middle27, middle28, middle29, middle30, middle31, middle32, middle33, middle34, middle35, middle36, middle37, middle38, middle39, middle40, middle41, middle42, middle43, middle44, middle45, middle46, middle47, middle48, middle49, middle50, middle51, middle52, middle53, middle54, middle55, middle56, middle57, middle58, middle59, middle60, middle61, middle62, middle63, middle64, middle65, middle66, middle67, middle68, middle69, middle70, middle71, middle72, middle73, middle74, middle75, middle76, middle77, middle78, middle79, middle80, middle81, middle82, middle83, middle84, middle85, middle86, middle87, middle88, middle89, middle90, middle91, middle92, middle93, middle94, middle95, middle96, middle97, middle98, middle99, middle100
+

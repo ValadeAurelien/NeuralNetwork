@@ -1,0 +1,26 @@
+# first argfile, testing 
+NEURONS - NAME : TYPE, LAYER
+a : SIGMOID, 0
+b : SIGMOID, 0
+c : SIGMOID, 0
+d : SIGMOID, 0
+e : LINEAR, 1
+f : SIGMOID, 2
+g : SIGMOID, 2
+h : SIGMOID, 2
+i : SIGMOID, 3
+j : SIGMOID, 3
+k : SIGMOID, 3
+l : HEAVISIDE, 4
+
+BACKWARD_LINKS - NAME : PARENTS' NAMES
+e : a, b
+f : a, c 
+g : d, e
+h : c, d
+i : h, g 
+j : f, g
+k : h
+l : j, k, i
+
+

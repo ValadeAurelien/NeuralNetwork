@@ -1,0 +1,4 @@
+#! /bin/bash
+
+
+g++ main.cpp src/* -o main -O3 -I includes/

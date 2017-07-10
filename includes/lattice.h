@@ -59,21 +59,19 @@ struct ReciprocicalLink_Compare_t
 {
   bool operator()(const ReciprocicalLink_t &l1, const ReciprocicalLink_t &l2) const
   {
-    cout << l1.get_n_ptr1()->get_name() << " (" << l1.get_n_ptr1() << ") " << l1.get_n_ptr2()->get_name() << " (" << l1.get_n_ptr2() << ") " 
-         << l2.get_n_ptr1()->get_name() << " (" << l2.get_n_ptr1() << ") " <<  l2.get_n_ptr2()->get_name() << " (" << l2.get_n_ptr2() << ") " 
-         << (l1.get_n_ptr1()<l2.get_n_ptr1()) << " " << (l1.get_n_ptr2()<l2.get_n_ptr2()) ;
+//    cout << l1.get_n_ptr1()->get_name() << " (" << l1.get_n_ptr1() << ") " << l1.get_n_ptr2()->get_name() << " (" << l1.get_n_ptr2() << ") " 
+//         << l2.get_n_ptr1()->get_name() << " (" << l2.get_n_ptr1() << ") " <<  l2.get_n_ptr2()->get_name() << " (" << l2.get_n_ptr2() << ") " 
+//         << (l1.get_n_ptr1()<l2.get_n_ptr1()) << " " << (l1.get_n_ptr2()<l2.get_n_ptr2()) ;
 
-    bool c_1, c_2;
+    char c_1, c_2;
     if (l1.get_n_ptr1()<l2.get_n_ptr1())
-      c_1 = true;
-    else 
-      c_1 = false;
-    if (l1.get_n_ptr2()<l2.get_n_ptr2())
-      c_2 = true;
+      return true;
+    else if (l1.get_n_ptr1()>l2.get_n_ptr1())
+      return false;
+    else if (l1.get_n_ptr2()<l2.get_n_ptr2())
+      return true;
     else
-      c_2 = false;
-    cout << " " << ( c_1 or c_2) << endl;
-    return ( c_1 or c_2 );
+      return false;
   }
 };
 
